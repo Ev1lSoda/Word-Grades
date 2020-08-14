@@ -1,0 +1,176 @@
+.show-grid-container {
+  margin: 10px 0px 5px;
+  display: grid;
+  min-width: 1000px;
+  grid-gap: 5px;
+  min-height: 75vh;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 7% 93%;
+  grid-template-areas:
+    "complexity complexity"
+    "main side-bar";
+}
+.show-grid-item-1 {
+  display: grid;
+  grid-area: main;
+  text-align: justify;
+  text-justify: auto;
+  max-width: 90%;
+  font-size: 0.88em;
+  grid-template-rows: 1fr 13fr;
+}
+.show-grid-item-2 {
+  grid-area: side-bar;
+}
+.show-grid-item-3 {
+  grid-area: complexity;
+  display: flex;
+  /* background-color: blue; */
+  align-content: flex-start;
+}
+.chart-bar {
+  max-width: 900px;
+  min-height: auto;
+}
+.chart-doughnut {
+  max-width: 900px;
+  max-height: auto;
+}
+.show-grid-item-1-flex-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-grid-item-1-flex-2 {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  align-content: flex-start;
+  /* text-align: justify;
+  text-justify: inter-word; */
+}
+.button-lvl-1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(0, 255, 0, 0.6);
+}
+
+.button-lvl-2 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(0, 255, 255, 0.6);
+}
+
+.button-lvl-3 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(255, 255, 51, 0.6);
+}
+
+.button-lvl-4 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(0, 128, 255, 0.6);
+}
+
+.button-lvl-5 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(255, 128, 0, 0.6);
+}
+.button-lvl-6 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(255, 0, 0, 0.6);
+}
+.button-lvl-width {
+  min-width: 90px;
+}
+.show-btn {
+  display: flex;
+  min-width: 700px;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.onButton-lvl-1 {
+  background-color: rgba(0, 255, 0, 0.6);
+}
+
+.onButton-lvl-2 {
+  background-color: rgba(0, 255, 255, 0.6);
+}
+
+.onButton-lvl-3 {
+  background-color: rgba(255, 255, 51, 0.6);
+}
+
+.onButton-lvl-4 {
+  background-color: rgba(0, 128, 255, 0.6);
+}
+
+.onButton-lvl-5 {
+  background-color: rgba(255, 128, 0, 0.6);
+}
+.onButton-lvl-6 {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+.lvl_1 {
+  background-color: rgba(0, 255, 0, 0.6);
+}
+.lvl_2 {
+  background-color: rgba(0, 255, 255, 0.6);
+}
+.lvl_3 {
+  background-color: rgba(255, 255, 51, 0.6);
+}
+.lvl_4 {
+  background-color: rgba(0, 128, 255, 0.6);
+}
+.lvl_5 {
+  background-color: rgba(255, 128, 0, 0.6);
+}
+.lvl_6 {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+.goBackBtn {
+  background-color: white;
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  padding: 0 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: auto;
+}
+.goBackBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.goBackBtn span:after {
+  content: "\00AB";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+.goBackBtn:hover span {
+  padding-left: 25px;
+}
+.goBackBtn:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+.spanTextJustify {
+  line-height: 1.8;
+}
+.fontSizeTextInfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+}

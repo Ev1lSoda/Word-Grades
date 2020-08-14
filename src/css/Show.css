@@ -1,0 +1,21 @@
+#text {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 70vh;
+}
+.img-flex {
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+.standby-text {
+  color: var(--cj26-color);
+  font-size: 0.9871rem;
+  font-weight: 500;
+  animation: fadeIn 1s infinite alternate;
+}

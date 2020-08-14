@@ -1,0 +1,18 @@
+/*textarea START*/
+.lexe-txt-area {
+  box-sizing: border-box;
+  min-width: 99%;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  border-radius: 5px;
+  border: 3px double var(--lexe-color);
+  background-color: rgba(57, 83, 164, 0.11);
+  padding: 3px;
+  font-size: 1.345rem;
+  cursor: default;
+  min-height: 60vh;
+  height: 70vh;
+  z-index: 1;
+}
+/*textarea END*/
